@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2? family= Calabacín & display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    margin: 50px 30px;
+    border: 6px solid rgb(255, 0, 119);
+    box-shadow: 0 0 19px 0 rgb(255, 0, 111), 0 0 19px 0 rgb(255, 0, 119);
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.form-container {
+    flex-wrap: wrap;
+    order: 3;
+    flex: 1;
+    min-width: 400px;
+    max-width: 1000px;
+}
+
+.input {
+    font-family: 'Courgette', cursive;
+    border: none;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(transparent, rgba(255, 0, 191, 0.64));
+    outline: none;
+    padding: 10px;
+    min-width: 70%;
+    max-width: 90%;
+    resize: none;
+    border-bottom: 4px solid rgb(255, 0, 191);
+}
+
+.container textarea {
+    height: 140px;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px 0 rgb(255, 0, 119), 0 0 10px 0 rgb(255, 0, 119);
+    border-bottom: 4px solid rgb(255, 0, 140);
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.716)
+}
+
+.input-enviar {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    background-color: rgb(255, 0, 111);
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding: 10px;
+    min-width: 76%;
+    max-width: 93%;
+}
+
+.input-enviar:hover {
+    color: rgba(255, 255, 255, 0.774);
+    background-color: rgba(255, 0, 111, 0.801);
+}
+
+.container-img {
+    flex: 1;
+    min-width: 200px;
+    max-width: 380px;
+    display: flex;
+}
